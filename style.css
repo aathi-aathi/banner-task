@@ -1,0 +1,691 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(38, 38, 63);
+    font-family: sans-serif;
+}
+h5{
+    font-size: small;
+    font-weight: 900;
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2px;
+}
+.child-img>img{
+    background-color: rgb(0, 142, 167);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.child-img{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+.title>h1{
+    font-size:35px;
+    font-family: sans-serif;
+    color: rgb(245, 77, 77);
+}
+.title>h2{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.first-box{
+    border: none;
+    height: 220px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    color: white;
+}
+
+
+.left-first{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(250, 163, 1);
+}
+.obese-image{
+    margin: 10px;
+    height: 40px;
+    background-color:inherit;
+}
+.obese-image>img{
+    margin-top: 10px;
+    height: 30px;
+    width:30px;
+    background-color: rgb(250, 163, 1);
+}
+.obese-txt{
+    width: 150px;
+    background-color: rgb(250, 163, 1);
+}
+.obese-txt>h6{
+    background-color: inherit;
+}
+.obese-txt>h5{
+    background-color: inherit;
+}
+.right-first{
+    background-color: rgb(0, 201, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottle>img{
+
+    margin-left: 5px;
+    height: 25px;
+    width:25px;
+    background-color: rgb(0, 201, 252);
+}
+.million{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color:rgb(0, 201, 252);
+    margin-top: 10px;
+
+}
+.million-txt{
+    background-color:rgb(0, 201, 252) ;
+    margin-top: 10px;
+}
+
+.million-txt>h5{
+    background-color: inherit;
+}
+a{
+    background-color: inherit;
+    color: white;
+}
+.sec-box{
+    border: none;
+    background-color: rgb(245, 77, 77);
+    height: 160px;
+    margin: 30px;
+    display: grid;
+    grid-template-areas: 
+    "left right"
+    "footer footer";
+    color: white;
+}
+.left-sec{
+    grid-area: left;
+    background-color:rgb(245, 77, 77);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.left-sec>h5{
+    background-color: inherit;
+}
+.right-sec{
+    grid-area: right;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+}
+.sec-image{
+    background-color: rgb(245, 77, 77);
+    font-size: x-small;
+}
+
+
+.images{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(245, 77, 77);
+}
+.sec-image>img{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(245, 77, 77) ;
+}
+.footer-sec{
+    grid-area: footer;
+    background-color: inherit;
+    font-size: x-small;
+    margin: 10px;
+}
+h6{
+    font-size: xx-small;
+    background-color: inherit;
+    color:white;
+}
+h1{
+    font-size: x-large;
+    font-weight:800;
+    background-color: inherit;
+    color: white;
+}
+.third-box{
+    border: none;
+    background-color:  rgb(0, 201, 252);
+    height: 180px;
+    margin: 30px ;
+   
+}
+.risk-factors{
+    margin: 10px;
+    padding-top: 5px;
+    color:white;
+    background-color: rgb(0, 201, 252);
+}
+.third-title{
+     display: flex;
+    flex-direction: row;
+    background-color:rgb(0, 201, 252) ;
+}
+.third-title>img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    background-color: rgb(0, 201, 252);
+}
+.third-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(0, 201, 252);
+    margin: 10px;
+}
+.third-sub{
+    color: white;
+    background-color: inherit;
+    margin: 5px;
+    font-size: x-small;
+}
+.fourth-box{
+    border: none;
+    height: 180px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left-fourth{
+    background-color:  rgb(245, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.french{
+    background-color: inherit;
+    color: white;
+}
+.left-fourth>img{
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    padding-top: 10px;
+}
+.right-fourth{
+    background-color: rgb(250, 163, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.right-fourth>img{
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    padding-bottom: 10px;
+}
+.juice{
+    background-color: inherit;
+    color: white;
+}
+
+.fifth-box{
+    border: none;
+    background-color: rgb(0, 201, 252);
+    height: 90px;
+    margin: 30px ;
+     display: grid;
+    grid-template-columns: 75% 25%;
+    place-items: center;
+}
+.fifth-box>img{
+    width: 70px;
+    height: 70px;
+    background-color: inherit;
+    margin-right: 30px;
+   
+
+}
+.fifth-txt{
+    background-color: inherit;
+    padding: 10px 0px 0px 20px;
+}
+.fifth-txt>h1{
+    font-size: x-large;
+    font-weight: 800;
+    line-height:20px ;
+}
+.sixth-box{
+    border: none;
+    background-color: rgb(250, 163, 1);
+    height: 90px;
+    margin: 30px ;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    place-items: center;
+}
+.sixth-box>img{
+    width: 70px;
+    height: 70px;
+    background-color: inherit;
+    margin-right: 30px;
+   
+
+}
+.sixth-txt{
+    background-color: inherit;
+    padding: 5px 0px 0px 10px;
+}
+.sixth-txt>h1{
+    font-size: x-large;
+    font-weight: 800;
+    line-height:20px ;
+}
+.seventh-box{
+    border: none;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin: 30px;
+}
+.left-seventh>img{
+    width: 40px;
+    height: 40px;
+    background-color: inherit;
+    
+}
+.left-seventh{
+    background-color:  rgb(0, 201, 252);
+    padding: 20px;
+    
+}
+.right-seventh{
+    background-color:  rgb(245, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-seventh>h5{
+    background-color: inherit;
+    color: white;
+    line-height: 13px;
+    padding: 20px;
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    h5{
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .top-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 2px;
+    }
+    .child-img>img{
+        background-color: rgb(0, 142, 167);
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+    .child-img{
+        border: 10px solid white;
+        border-radius: 50%;
+        padding: 2px;
+        width: 210px;
+        height: 210px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+    .title>h1{
+        font-size:150px;
+        font-family: sans-serif;
+        color: rgb(245, 77, 77);
+    }
+    .title>h2{
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .first-box{
+        border: none;
+        height: 600px;
+        margin: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .left-first{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(250, 163, 1);
+    }
+    .obese-image{
+        margin: 10px;
+        height: 100px;
+        background-color:inherit;
+    }
+    .obese-image>img{
+        margin-top: 10px;
+        height: 100px;
+        width:100px;
+        background-color: rgb(250, 163, 1);
+    }
+    .obese-txt{
+        width: 500px;
+        background-color: rgb(250, 163, 1);
+    }
+    .obese-txt>h6{
+        background-color: inherit;
+    }
+    .obese-txt>h5{
+        font-size: xx-large;
+        background-color: inherit;
+    }
+    .right-first{
+        background-color: rgb(0, 201, 252);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .bottle>img{
+    
+        margin-left: 5px;
+        height: 100px;
+        width:100px;
+        background-color: rgb(0, 201, 252);
+    }
+    .million{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        background-color:rgb(0, 201, 252);
+        margin-top: 10px;
+    
+    }
+    .million-txt{
+        background-color:rgb(0, 201, 252) ;
+        margin-top: 10px;
+    }
+    
+    .million-txt>h5{
+        background-color: inherit;
+    }
+    a{
+        background-color: inherit;
+        color: white;
+    }
+    .sec-box{
+        border: none;
+        background-color: rgb(245, 77, 77);
+        height: 300px;
+        margin: 100px;
+        display: grid;
+        grid-template-areas: 
+        "left right"
+        "footer footer";
+        color: white;
+    }
+    .left-sec{
+        grid-area: left;
+        background-color:rgb(245, 77, 77);
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .left-sec>h5{
+        background-color: inherit;
+    }
+    .right-sec{
+        grid-area: right;
+        background-color: inherit;
+        display: flex;
+        align-items: center;
+    }
+    .sec-image{
+        background-color: rgb(245, 77, 77);
+        font-size: large;
+    }
+    
+    
+    .images{
+        display: flex;
+        margin: 10px;
+        background-color: rgb(245, 77, 77);
+        gap:2rem;
+        text-align: center;
+    }
+    .sec-image>img{
+        width: 100px;
+        height: 100px;
+        background-color:rgb(245, 77, 77);
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-sec{
+        grid-area: footer;
+        background-color: inherit;
+        font-size: large;
+        margin: 10px;
+    }
+    h6{
+        font-size: 20px;
+        background-color: inherit;
+        color:white;
+    }
+    h1{
+        font-size:100px;
+        font-weight:900;
+        background-color: inherit;
+        color: white;
+    }
+    .third-box{
+        border: none;
+        background-color:  rgb(0, 201, 252);
+        height: 400px;
+        margin: 100px ;
+       
+    }
+    .risk-factors{
+        margin: 10px;
+        padding-top: 50px;
+        margin-left: 50px;
+        color:white;
+        background-color: rgb(0, 201, 252);
+        font-size: 40px;
+    }
+    .third-title{
+         display: flex;
+        flex-direction: row;
+        background-color:rgb(0, 201, 252) ;
+    }
+    .third-title>img{
+        height: 50px;
+        width: 50px;
+        margin-top: 60px;
+        background-color: rgb(0, 201, 252);
+    }
+    .third-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: rgb(0, 201, 252);
+        margin: 10px;
+    }
+    .third-sub{
+        color: white;
+        background-color: inherit;
+        margin: 20px;
+        font-size: 20px;
+    }
+    .fourth-box{
+        border: none;
+        height: 600px;
+        margin: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .left-fourth{
+        background-color:  rgb(245, 77, 77);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        text-align: center;
+    }
+    .french{
+        background-color: inherit;
+        color: white;
+    }
+    .left-fourth>img{
+        width: 150px;
+        height: 150px;
+        background-color: inherit;
+        padding-top: 10px;
+    }
+    .right-fourth{
+        background-color: rgb(250, 163, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        text-align: center;
+    }
+    .right-fourth>img{
+        width: 150px;
+        height: 150px;
+        background-color: inherit;
+        padding-bottom: 10px;
+    }
+    .juice{
+        background-color: inherit;
+        color: white;
+    }
+    
+    .fifth-box{
+        border: none;
+        background-color: rgb(0, 201, 252);
+        height: 300px;
+        margin: 100px ;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        place-items: center;
+    }
+    .fifth-box>img{
+        width: 200px;
+        height: 200px;
+        background-color: inherit;
+        margin-right: 30px;
+       
+    
+    }
+    .fifth-txt{
+        background-color: inherit;
+        padding: 10px 0px 0px 100px;
+    }
+    .fifth-txt>h1{
+        font-size: 80px;
+        font-weight: 800;
+        line-height:100px ;
+    }
+    .sixth-box{
+        border: none;
+        background-color: rgb(250, 163, 1);
+        height: 300px;
+        margin: 100px ;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        place-items: center;
+    }
+    .sixth-box>img{
+        width: 200px;
+        height: 200px;
+        background-color: inherit;
+        margin-right: 30px;
+       
+    
+    }
+    .sixth-txt{
+        background-color: inherit;
+        padding: 10px 0px 0px 100px;
+    }
+    .sixth-txt>h1{
+        font-size: 80px;
+        font-weight: 800;
+        line-height:100px ;
+    }
+    .seventh-box{
+        border: none;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        margin: 100px;
+    }
+    .left-seventh>img{
+        width: 150px;
+        height: 150px;
+        background-color: inherit;
+        padding: 20px;
+        
+    }
+    .left-seventh{
+        background-color:  rgb(0, 201, 252);
+        
+    }
+    .right-seventh{
+        background-color:  rgb(245, 77, 77);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-seventh>h5{
+        background-color: inherit;
+        color: white;
+        line-height: 50px;
+    }
+
+}
